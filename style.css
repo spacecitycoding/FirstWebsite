@@ -1,0 +1,83 @@
+body {
+  background-color: #303036;
+  height: 100%;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 1.2;
+  background-image: url("/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -2;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h1.top-header {
+  font-size: 64px;
+}
+
+h2.bottom-header {
+  padding: 0.2rem 1rem;
+  background: rgba(46, 139, 87, 0.5);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: seagreen;
+}
+
+li.nav-item {
+  font-size: 20px;
+  list-style: none;
+  display: inline;
+  padding: 25px;
+}
+
+header {
+  /*position: fixed; makes it stay at the top*/
+  width: 100%;
+}
+
+/* Used to apply style to our span city text*/
+.city-text {
+  color: seagreen;
+}
+
+main {
+  padding: 4rem;
+  height: 100%;
+}
+
+main#top-main h1 {
+  margin-top: 20vh;
+}
+
+nav.nav-menu {
+  float: none;
+  position: absolute;
+  top: 25%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+
+div.info-box {
+  color: white;
+  width: 450px;
+  margin-left: 50rem;
+}
